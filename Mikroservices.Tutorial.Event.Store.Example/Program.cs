@@ -57,7 +57,7 @@ using System.IO;
 //        OrderPlacedEvent @event = JsonSerializer.Deserialize<OrderPlacedEvent>(resolvedEvent.Event.Data.ToArray());
 //        await Console.Out.WriteLineAsync(JsonSerializer.Serialize(@event));
 //    },
-//    subscriptionDropped: (streamSubscription, subscriptionDroppedReason, exception) => Console.WriteLine("Disconnected")
+//    subscriptionDropped: (streamSubscription, subscriptionDroppedReason, exception) => Console.WriteLine("Disconnected") => Bağlant düşerse bu metot tetiklenir.
 //    );
 
 //Console.Read();
